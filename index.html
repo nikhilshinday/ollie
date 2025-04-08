@@ -6,6 +6,11 @@
     <title>Ollie's Awesome Website!</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Remove Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- Add Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body class="bg-pink-100 py-10">
     <div class="max-w-md mx-auto bg-white rounded-lg shadow-md p-6 text-center">
@@ -38,7 +43,19 @@
             <p class="text-gray-700"><a href="https://drive.google.com/drive/folders/1vGkl5N96_zd19WsBwLfM0uF1o-4fxPoO" target="_blank" class="text-blue-500 hover:underline">View Ollie's Records</a></p>
         </div>
 
-        <p class="mt-6 text-gray-800">Thanks for visiting my page! Woof!</p>
+        <div class="mt-6">
+            <h2 class="text-xl font-semibold text-amber-600 mb-3">Follow Me!</h2>
+            <div class="flex justify-center space-x-4">
+                <a href="https://www.instagram.com/ollieinbarklyn/" target="_blank" class="text-gray-800 hover:text-black text-xl inline-block text-center w-8">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://www.tiktok.com/@ollieinbarklyn" target="_blank" class="text-gray-800 hover:text-black text-xl inline-block text-center w-8">
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                </a>
+            </div>
+        </div>
+
+        <p class="mt-8 text-gray-800">Thanks for visiting my page! Woof!</p>
     </div>
 </body>
 </html>
